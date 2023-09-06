@@ -1,0 +1,47 @@
+.editor{
+    /* border: 1px solid salmon; */
+    min-height: 100px;
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    overflow: hidden;
+    background-color: #373738;
+    font-size: 16px;
+}
+.head{
+    /* border: 1px solid seagreen; */
+    padding: 4px 7px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #001625;
+}
+#collapse-btn{
+    /* border: 1px solid blue; */
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(207, 207, 207);
+    font-size: 19px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: inherit;
+}
+#collapse-btn:hover{
+    color: white;
+    background-color: rgb(87, 87, 87);
+}
+.language{
+    font-weight: bold;
+    color: rgb(216, 216, 216);
+    font-size: 14px;
+}
+.lang-logo{
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(207, 207, 207);
+    font-size: 19px;
+}
